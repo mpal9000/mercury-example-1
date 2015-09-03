@@ -1,0 +1,26 @@
+{
+  "name": "observ-array-bug-showcase",
+  "version": "0.0.1",
+  "scripts": {
+    "browserify": "browserify ./index.js -o ./bundle.js -t babelify -d",
+    "browserify:clean": "rimraf ./bundle.js",
+    "watchify": "watchify ./index.js -o ./bundle.js -t babelify -d -v",
+    "watchify:clean": "npm run browserify:clean -s",
+    "build": "npm run browserify:clean -s && npm run browserify -s",
+    "watch": "npm run watchify:clean -s && npm run watchify -s",
+    "clean": "npm run browserify:clean -s"
+  },
+  "private": true,
+  "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "mercury": "^14.0.0",
+    "ramda": "^0.17.1",
+    "vdom-virtualize": "0.0.12"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "rimraf": "^2.4.2",
+    "watchify": "^3.3.1"
+  }
+}

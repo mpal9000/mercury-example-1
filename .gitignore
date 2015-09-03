@@ -1,0 +1,20 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# test coverage
+coverage
+lib-cov
+
+# module dependencies
+node_modules
+
+# backup
+.backup
+.sublime-backup
+.tmp
+
+# editor
+*.sublime-project
+*.sublime-workspace

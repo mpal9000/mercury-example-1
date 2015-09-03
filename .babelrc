@@ -1,0 +1,64 @@
+{
+  "env": {
+    "development": {
+      "optional": [
+        "runtime",
+        "es7.asyncFunctions",
+        "es7.classProperties",
+        "es7.decorators",
+        "es7.exportExtensions",
+        "es7.objectRestSpread"
+        // "utility.inlineEnvironmentVariables",
+        // "validation.react"
+        // "validation.undeclaredVariableCheck"
+      ],
+      "plugins": [
+        // "babel-plugin-flow-comments",
+        // "babel-plugin-react-require"
+        // "babel-plugin-react-hotify"
+        // "babel-plugin-react-hotify-2"
+      ]
+    },
+    "production": {
+      "optional": [
+        "runtime",
+        "es7.asyncFunctions",
+        "es7.classProperties",
+        "es7.decorators",
+        "es7.exportExtensions",
+        "es7.objectRestSpread"
+        // "utility.inlineEnvironmentVariables",
+        // "validation.react"
+        // "validation.undeclaredVariableCheck",
+        // "optimisation.react.constantElements",
+        // "optimisation.react.inlineElements",
+        // "minification.constantFolding",
+        // "minification.deadCodeElimination",
+        // "minification.memberExpressionLiterals",
+        // "minification.propertyLiterals",
+        // "minification.removeConsole",
+        // "minification.removeDebugger"
+      ],
+      "plugins": [
+        // "babel-plugin-react-remove-prop-types",
+        // "babel-plugin-react-require"
+      ]
+    },
+
+
+    "iojs-development": {
+
+    },
+    "iojs-production": {
+
+    },
+
+
+    "browser-development": {
+
+    },
+    "browser-production": {
+
+    }
+  }
+}
