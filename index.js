@@ -162,7 +162,6 @@ Color.render = function render(state) {
 
 function onTap(state) {
   state.value.set(rgb());
-  return;
 }
 
 /**
