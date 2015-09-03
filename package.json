@@ -1,5 +1,5 @@
 {
-  "name": "observ-array-bug-showcase",
+  "name": "mercury-example-1",
   "version": "0.0.1",
   "scripts": {
     "browserify": "browserify ./index.js -o ./bundle.js -t babelify -d",
